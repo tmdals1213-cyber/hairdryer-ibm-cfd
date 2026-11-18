@@ -1,0 +1,67 @@
+{
+  "case": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm",
+  "solver_source_epoch": "2026-11-11 wall-and-visible-fluid reconstruction",
+  "target_rpm_magnitude": 500,
+  "signed_rpm_about_positive_x": -500,
+  "flow_direction": "long experimental duct (-X) inlet to short dryer end (+X) outlet",
+  "initial_velocity_m_s": [
+    0,
+    0,
+    0
+  ],
+  "kinematic_viscosity_m2_s": 1.5e-05,
+  "motion_ramp_s": 0.024,
+  "scales": {
+    "length_m": 0.02149,
+    "axis_x_mm": -62.86,
+    "reference_rpm_magnitude": 5000,
+    "rotation_scale": 0.1,
+    "time_s": 0.003819718634205488,
+    "velocity_m_s": 5.62606884380372
+  },
+  "grid": {
+    "coordinate_counts": [
+      105,
+      97,
+      97
+    ],
+    "cell_counts": [
+      104,
+      96,
+      96
+    ],
+    "cell_count": 958464,
+    "minimum_spacing_mm": [
+      0.3630633099230416,
+      0.36893364345915847,
+      0.36893364345915847
+    ],
+    "nominal_tip_gap_mm": 0.06973426979630126,
+    "tip_seal": false
+  },
+  "startup": {
+    "dt_cap_s": 1e-05,
+    "CFL_target": 0.1
+  },
+  "continued_run": {
+    "dt_cap_s": 0.0002,
+    "CFL_target": 0.5,
+    "larger_step_start_time_s": 0.1473299999999725,
+    "output_every_steps": 10,
+    "OMP_threads": 8
+  },
+  "pressure": {
+    "relative_tolerance": 1e-08,
+    "scaled_absolute_tolerance": 1e-07
+  },
+  "SGS": {
+    "ILES": 1,
+    "ISGSMOD": 3,
+    "model": "Vreman in archived input; not evidence of resolved turbulence"
+  },
+  "required_private_geometry_sha256": {
+    "fixed.fn": "4d2593ba42abf2d6001e99bd86685262fadcccddbd66fcff05be70eda94438a7",
+    "rotor.fn": "afe0dd6b0a5a50c073604901da768cf68f3c9dbf951ba1d70e49fe57c9aa1e69"
+  },
+  "geometry_not_included": true
+}

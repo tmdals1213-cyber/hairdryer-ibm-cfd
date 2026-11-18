@@ -1,0 +1,26 @@
+{
+  "case": "fluid_wall_rotor_local_500rpm_20261111 -> larger_dt_500rpm_20261112",
+  "upstream": "LICA 2017 source notice; local supplied snapshot and rotor reference received 2026-11-05",
+  "not_claimed_pristine_upstream_release": true,
+  "original_completed_run_executable_sha256": "21c39247956dffdc4da5ebe6d90c22b3cebdb351110eeef536639f909aa2ebbf",
+  "source_sha256": {
+    "ambient_boundaries.f90": "f53c6f5fff082137a3f44dacd56bb8dc0b29d6b2f8b58e1b0acd6a46df810506",
+    "lica.f90": "76dbb83b26fa0ad34e417422655c657c7c589d1cb74f1fd7a1a1f02e1e72ee18",
+    "lica_movingIBM.f90": "7ff961f87a1cd26ccbbc4e0dbb1047bdeba067eeb495130591f09cb6a1726f43",
+    "lica_sgs.f90": "b0c7cde1e917c381e71277d3f0b19459fa1b77315dea745afebda91f2d0308fd",
+    "lica_sphere.f90": "82e1fa6adb5a0fcc7b53ad83a6a715367bef2ca0c8ecd8528123f18eda4eb574",
+    "mod_common.f90": "dbf009afe59879d7cd6cdf6c213e176470d92f6927cdac985fef55df514fbdea",
+    "mod_flowarray.f90": "774367fd70ee9aaf8319fa5c9f0e10269b188ba41bcddc48e355ceb56583a5e2",
+    "mod_ibm_coupled_targets.f90": "a0a4e8c109cbe057e249908426e1f6de01267f882cdc442f569480baf4dc3223",
+    "mod_ibm_pressure_neumann.f90": "9054cb8b3eafbf2a631e6bfa34e244c72a9e7f33feb14a88e7ae702e412e7968",
+    "mod_ibm_surface_velocity.f90": "34ee8092a70bfc58bfed13b380b8f1c7db0d5894c04f5cb06f0447faf7c1390e",
+    "mod_movingIBM.f90": "f22a74bee86dc4939b21e542fae31f20f3d8b146acce8a4c358ad0a9d978763b",
+    "mod_poiss_mgbicg.f90": "40b1dc96861676541259db01882ea5a9332fe9fbdf3ac91ffad426eec8491476",
+    "mod_rotor_motion.f90": "2ec45fadc8bc496eac12d6816aff91069a78aac22b28f566c4fd7f54d04f34c0",
+    "mod_stl_sdf.f90": "1e5b7e5e715c5c891ce6257eb684e5f512bcbc7f810b6a5691514e934fe474b1",
+    "poiss_mgbicgstab.f90": "e8ab4533f7fa76101d09d4f83e3fe3e68aa0642e9c3da03661535518f56e0972"
+  },
+  "all_sources_byte_identical_to_completed_run_build_inputs": true,
+  "later_2000_10000rpm_transport_fixes_included": false,
+  "original_executable_and_raw_fields_included": false
+}

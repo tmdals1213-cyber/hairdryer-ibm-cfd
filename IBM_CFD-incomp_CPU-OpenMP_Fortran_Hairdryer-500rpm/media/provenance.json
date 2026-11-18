@@ -1,0 +1,46 @@
+{
+  "source": "approved public red-blade edition, 2026-11-16",
+  "original_media_copied_byte_identically": [
+    {
+      "file": "hairdryer_500rpm_landscape_red_blade.mp4",
+      "sha256": "ba59ca4e5659b8fbecc8b0239bd3a4e95dfb270b5c7b1e92710eb64556c44a43",
+      "bytes": 22429733
+    },
+    {
+      "file": "hairdryer_500rpm_portrait_red_blade.mp4",
+      "sha256": "52eb2abb1efa2a5cc90b8d4316da114bc861d4ffaff98bd2d791c3734042faf7",
+      "bytes": 22570795
+    },
+    {
+      "file": "poster.png",
+      "sha256": "89282db6c1df6e4a27d99e072a81408188a7441ac20b0b57ac17d1122d6effc9",
+      "bytes": 807962
+    }
+  ],
+  "physical_time_s": [
+    0.0106,
+    5.001663930691342
+  ],
+  "original_fps": 60,
+  "original_duration_s": 37,
+  "slow_motion_factor": 4,
+  "geometry": "Permitted rotor/blade visualization with generic non-blade guides; actual fixed CAD excluded.",
+  "red_blade": "Fixed material identity, co-rotates with the same blade; not a pressure/velocity contour.",
+  "public_Q_hook": {
+    "threshold_s_minus2": 647.347,
+    "cosmetic_smoothing_sigma_mm": 0.3,
+    "speed_color_range_m_s": [
+      0,
+      0.6
+    ],
+    "quantitative_surface": false
+  },
+  "new_CFD_calculation_for_packaging": false,
+  "results_only_summary": {
+    "source": "hairdryer_500rpm_landscape_red_blade.mp4",
+    "start_frame_zero_based": 991,
+    "frames": 1229,
+    "sha256": "8a15b3250520d9dce369af2390f191d927327681ea871c57aafb8a4613bd9a46",
+    "frame_rate_and_physical_time_labels_unchanged": true
+  }
+}

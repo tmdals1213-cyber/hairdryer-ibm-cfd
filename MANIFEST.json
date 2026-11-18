@@ -1,0 +1,255 @@
+{
+  "scope": "Completed500rpm public source, setup, prompts and approved media only",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 132,
+      "sha256": "d3d3f3683b3ab81e43aad17e64aff873bbf853559cc6f2495cda6fa1239c26d6"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 165,
+      "sha256": "b4d513c5a4bd0413aa12a9f8ee9f61cd3dfdc86174bd78055be5ef917340f9ad"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1025,
+      "sha256": "8f0cf2c6dd2990529efa827ec30ac2c5461c14085f791a602d9930c980ba2d44"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/README.md",
+      "bytes": 3439,
+      "sha256": "8112530ea410cdad22e9b80a970c8b1700d0bb660626dfc5b25217fbdc88879a"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/docs/AGENT_PROMPT_KO.txt",
+      "bytes": 2676,
+      "sha256": "e2d1e439b61a39df2f3daa0898c581bd3af8a45164790a5d7a8c94679129579b"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/docs/NUMERICS.md",
+      "bytes": 4332,
+      "sha256": "dce15211a190ab4f36547bf92e4e625d8f0543f7f0ae8edc7631b811de4f0d02"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/docs/VISUALIZATION.md",
+      "bytes": 2239,
+      "sha256": "782ef0c04a6d2e5147df3d1875ac1cfc2c3cca868316c9d77c083f136b14c9de"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/media/hairdryer_500rpm_landscape_red_blade.mp4",
+      "bytes": 22429733,
+      "sha256": "ba59ca4e5659b8fbecc8b0239bd3a4e95dfb270b5c7b1e92710eb64556c44a43"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/media/hairdryer_500rpm_portrait_red_blade.mp4",
+      "bytes": 22570795,
+      "sha256": "52eb2abb1efa2a5cc90b8d4316da114bc861d4ffaff98bd2d791c3734042faf7"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/media/hairdryer_500rpm_summary.mp4",
+      "bytes": 8251960,
+      "sha256": "8a15b3250520d9dce369af2390f191d927327681ea871c57aafb8a4613bd9a46"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/media/poster.png",
+      "bytes": 807962,
+      "sha256": "89282db6c1df6e4a27d99e072a81408188a7441ac20b0b57ac17d1122d6effc9"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/media/provenance.json",
+      "bytes": 1501,
+      "sha256": "ef2a5ba0f18a8f9838ca29f00e5cfc68a56374e360502487ce32f9af47f57212"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/post/inspect_field.py",
+      "bytes": 1289,
+      "sha256": "e9adb5b7ff38b35f3655a8056a0fe52f62a9ab953ee161a1ea008e43ab0a5222"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/post/lica_flow.py",
+      "bytes": 5295,
+      "sha256": "9627355c632b4ae4b1cd2a24de9d2f4359d43c52478306b398b6b41c9d3dd602"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/post/requirements.txt",
+      "bytes": 15,
+      "sha256": "105a25c9a24a53a42b52ccc93f930e1ea4a88b42372d440ae7c1b82c3a8b2c64"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/results/completed_500rpm.json",
+      "bytes": 1850,
+      "sha256": "46b7f962cf2f9982a57501acbf91aa71cdb35ef8400637f764baa1b0e9f40b37"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/results/package_validation.json",
+      "bytes": 2180,
+      "sha256": "37172d1bd0fc2aaa472257e61607405d89e788e7d934255aa7486648163a15df"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/results/source_provenance.json",
+      "bytes": 1980,
+      "sha256": "874d9e2a28de9331415dd25498576a543a2e072c4e349dc08ccffe0192566379"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/setup/case.json",
+      "bytes": 1679,
+      "sha256": "bf7b9afc0b5ee482e7ef0a55044947a7fdd71d5824ec050382c9535e0d7b4ab2"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/setup/geometry.in.example",
+      "bytes": 46,
+      "sha256": "ac3dcc2e6384265cc33d8bbf929e9a10d3dd4c356ed9d25959ccbbdee2b795cc"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/setup/grid.dat",
+      "bytes": 7697,
+      "sha256": "4c0b21acaa3930199c8eab30c82bb4b5be98525523646ac37844cc7bfe4eb9ab"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/setup/lica.in",
+      "bytes": 342,
+      "sha256": "67b1670289d1f2a696a83a62060c2dca17cf8b8106bc153c43fd9a0bfe3f55bf"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/setup/rotation_scale.in",
+      "bytes": 5,
+      "sha256": "085d22f526fd6c444aad33f880738ca93951303ceffe2b112cf7b9e7327cf88c"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/setup/rotor.in",
+      "bytes": 48,
+      "sha256": "2d356d2420c239d92e26129ab815fb6482452af62da6d7d77cd607fe4a36b176"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/setup/tip_seal.in",
+      "bytes": 3,
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/ambient_boundaries.f90",
+      "bytes": 3186,
+      "sha256": "f53c6f5fff082137a3f44dacd56bb8dc0b29d6b2f8b58e1b0acd6a46df810506"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/lica.f90",
+      "bytes": 126603,
+      "sha256": "76dbb83b26fa0ad34e417422655c657c7c589d1cb74f1fd7a1a1f02e1e72ee18"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/lica_movingIBM.f90",
+      "bytes": 33778,
+      "sha256": "7ff961f87a1cd26ccbbc4e0dbb1047bdeba067eeb495130591f09cb6a1726f43"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/lica_sgs.f90",
+      "bytes": 54492,
+      "sha256": "b0c7cde1e917c381e71277d3f0b19459fa1b77315dea745afebda91f2d0308fd"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/lica_sphere.f90",
+      "bytes": 7839,
+      "sha256": "82e1fa6adb5a0fcc7b53ad83a6a715367bef2ca0c8ecd8528123f18eda4eb574"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/mod_common.f90",
+      "bytes": 10141,
+      "sha256": "dbf009afe59879d7cd6cdf6c213e176470d92f6927cdac985fef55df514fbdea"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/mod_flowarray.f90",
+      "bytes": 3868,
+      "sha256": "774367fd70ee9aaf8319fa5c9f0e10269b188ba41bcddc48e355ceb56583a5e2"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/mod_ibm_coupled_targets.f90",
+      "bytes": 8096,
+      "sha256": "a0a4e8c109cbe057e249908426e1f6de01267f882cdc442f569480baf4dc3223"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/mod_ibm_pressure_neumann.f90",
+      "bytes": 14333,
+      "sha256": "9054cb8b3eafbf2a631e6bfa34e244c72a9e7f33feb14a88e7ae702e412e7968"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/mod_ibm_surface_velocity.f90",
+      "bytes": 9683,
+      "sha256": "34ee8092a70bfc58bfed13b380b8f1c7db0d5894c04f5cb06f0447faf7c1390e"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/mod_movingIBM.f90",
+      "bytes": 608,
+      "sha256": "f22a74bee86dc4939b21e542fae31f20f3d8b146acce8a4c358ad0a9d978763b"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/mod_poiss_mgbicg.f90",
+      "bytes": 1443,
+      "sha256": "40b1dc96861676541259db01882ea5a9332fe9fbdf3ac91ffad426eec8491476"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/mod_rotor_motion.f90",
+      "bytes": 4057,
+      "sha256": "2ec45fadc8bc496eac12d6816aff91069a78aac22b28f566c4fd7f54d04f34c0"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/mod_stl_sdf.f90",
+      "bytes": 2236,
+      "sha256": "1e5b7e5e715c5c891ce6257eb684e5f512bcbc7f810b6a5691514e934fe474b1"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/src/poiss_mgbicgstab.f90",
+      "bytes": 30109,
+      "sha256": "e8ab4533f7fa76101d09d4f83e3fe3e68aa0642e9c3da03661535518f56e0972"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/tests/synthetic_dependencies.f90",
+      "bytes": 1241,
+      "sha256": "4c614ce8a91f0ee2d9835d909fa7e09e7db019ee4c7d9e3e6557fd1b249dbceb"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/tests/test_actual_velocity_module.f90",
+      "bytes": 4383,
+      "sha256": "ce81b122ff44ff72e6332732f2a2757f9383926d2cd87c5e184c9571a9ceaa65"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/tools/build_reference.py",
+      "bytes": 3014,
+      "sha256": "22630953aec6d7fc4c7e0db01ae50e788c4560e6a37bb730c085fceaa41085c9"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/tools/extract_summary.py",
+      "bytes": 1094,
+      "sha256": "07abfa9431b3241143aecb165af5b4528b0bdfff20258c9af4f334c8da6458d7"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/tools/prepare_case.py",
+      "bytes": 5787,
+      "sha256": "10f98dfb9ac2a1f913bbf51a5dde63b964f3db923488733b19eb2cdf2c494464"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/tools/run_case.py",
+      "bytes": 3591,
+      "sha256": "abd51e684ea0df9cbd398c50277704a7fa21bfeafb686f2c5c9a8976d38c6e5b"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/tools/run_kernel_checks.py",
+      "bytes": 2665,
+      "sha256": "fa32c6133ada93afe1c7d87bde58d8da4081f3bfe82ace8544f33685d7df6779"
+    },
+    {
+      "path": "IBM_CFD-incomp_CPU-OpenMP_Fortran_Hairdryer-500rpm/tools/verify_release.py",
+      "bytes": 1212,
+      "sha256": "5ee73daaf1f3cba6c3774a99ce79bcf6083a01445be76b83460133295fbace7e"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1526,
+      "sha256": "bb8fca0b3de7fa03f731bebb808cfe28099aebca29254b0623d019240124d6ba"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2538,
+      "sha256": "1935c62644c51583ad76ff849b0e4c786465b8dac75d7f4010c5b000e0034820"
+    }
+  ]
+}

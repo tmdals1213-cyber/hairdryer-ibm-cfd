@@ -1,0 +1,12 @@
+이 저장소의 500 rpm 헤어드라이어 IBM 사례를 내 환경으로 이식해줘.
+
+1. README.md, setup/case.json, docs/NUMERICS.md, results/source_provenance.json을 먼저 읽고, tools/verify_release.py로 파일을 확인해.
+2. 원본 15개 Fortran 소스와 저작권/비상업적 이용 표기는 보존해. 500 rpm 완료 버전이며 이후 2000/10000 rpm 실험판을 섞지 마.
+3. 새 build 폴더에서 tools/run_kernel_checks.py와 tools/build_reference.py를 실행해. 컴파일러 경로만 내 환경에 맞춰. 전체 CFD는 자동으로 시작하지 말고, 사용자가 정한 실행 범위에 따라 진행해.
+4. 공개 저장소에는 원본 CAD/STL, fixed.fn/rotor.fn, 유동장/재시작장이 없어. 실제 형상은 내가 별도로 제공한 승인된 파일만 사용하고 setup/case.json의 해시를 대조해. 준비는 tools/prepare_case.py, 실행은 tools/run_case.py를 사용해. 재시작 헤더만 같다고 정상장으로 간주하면 안 돼.
+5. 기존 코드는 CPU/OpenMP, 8스레드, 비압축성, 원래 약70µm 간극을 둔 성긴 직교격자야. 긴 관(-X)이 입구, 짧은 쪽(+X)이 출구, 실제 회전은 +X 기준 -500 rpm이야. rotor.in의 -5000은 기준 스케일이며 rotation_scale.in=0.1을 함께 읽어야 해. 온도/압축성/MPI/GPU를 임의로 추가하지 마.
+6. 핵심 이식 대상은 실제 벽면 B의 속도와 가시적인 유체 donor F만 사용하는 ghost 보간이야: u_G=(1+alpha)u_B-alpha*u_F, alpha<=1. 고체 donor/다른 고체를 관통하는 ray를 거절하고 지원점이 없으면 실패를 기록해. 고체 내부 전체를 강체 속도로 덮거나 유속을 팁 속도로 잘라내는 방식이 아니야. 보간 ROI/좌표/배열 staggering은 케이스 전용이니 다른 코드에는 재검토해.
+7. 압력의 신규 유체점 초기화/벽 법선 구배 처리, predictor와 target 분리, 실제 벽 owner 분류도 함께 읽어. 현재 수정은 전역 Neumann Poisson 재구현이 아니며 미해상 간극 정확도를 회복하지 않아.
+8. 영상은 검은 배경, 반투명 일반화 바디, 회색 날개와 함께 회전하는 빨간 날개 하나, 고정 속력 범위의 입자, 3D 유선/2D 속력·압력 단면 구성을 유지해. 공개용에는 실제 비날개 형상/내부 보고 영상을 넣지 마. 입자 이력을 하류에서 새로 생성한 것처럼 연결하거나 회전 방향을 바꾸지 마.
+
+완료 보고는 빌드/보간 검사 결과, 준비된 입력, 필요한 비공개 파일, 실제 실행 여부와 검증 한계만 간단히 정리해. 비공개 파일과 전체 해석 데이터는 Git에 추가하지 마.

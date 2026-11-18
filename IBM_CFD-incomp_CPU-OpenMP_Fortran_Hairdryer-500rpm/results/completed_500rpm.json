@@ -1,0 +1,59 @@
+{
+  "status": "COMPLETED_500RPM_COARSE_DEMONSTRATION",
+  "completed_KST": "2026-11-14T04:59:30+09:00",
+  "exit_code": 0,
+  "terminal_field_sha256": "af11b645c078de5e909bc8c71ff751c5759aa65579f0f8884d2238eaffd25fe7",
+  "terminal_field": {
+    "file": "fld042362",
+    "time_s": 5.001663930691342,
+    "step": 42362,
+    "rpm": 499.99999999999994,
+    "dt_s": 0.00016804745955904056,
+    "max_fluid_cell_speed_m_s": 0.5658490192935658,
+    "fluid_cell_peak_mm": [
+      -62.56637774115195,
+      9.776741551662829,
+      3.5048696128502828
+    ],
+    "max_all_cell_speed_m_s": 0.768009577396145,
+    "max_native_component_all_m_s": 0.9297877082955457,
+    "saved_field_CFL": 0.43369075595620366,
+    "fluid_speed_p99_m_s": 0.42804166488417594,
+    "sections": [
+      {
+        "label": "inlet_duct",
+        "x_mm": -118.8491072929051,
+        "flux_m3_s": 4.643828683495428e-06,
+        "mean_Ux_m_s": 0.002353489035124406
+      },
+      {
+        "label": "outlet",
+        "x_mm": 0.7344350455413533,
+        "flux_m3_s": 4.649985290583925e-06,
+        "mean_Ux_m_s": 0.00762905589433236
+      }
+    ],
+    "all_finite": true
+  },
+  "last_stage": {
+    "step": 17784,
+    "rk": 3,
+    "fluid_peak_ijk_component": [
+      58,
+      75,
+      59,
+      3
+    ],
+    "time_s": 5.001663930691342,
+    "fluid_component_peak_m_s": 0.5952825665437649,
+    "all_component_peak_m_s": 0.9297877082955457,
+    "tip_speed_m_s": 0.5589556065519201,
+    "fluid_peak_over_tip": 1.064990778455445,
+    "divergence_minus_Q_nondim": 3.477689868627279e-08,
+    "fluid_divergence_minus_Q_nondim": 3.477689868627279e-08,
+    "wall_interpolant_error_m_s": 0.05516827756099792,
+    "net_outer_flux_m3_s": 6.839985015100572e-13
+  },
+  "interpretation": "Finite completed demonstration, not a resolved-tip or quantitative LES validation.",
+  "raw_fields_included": false
+}
